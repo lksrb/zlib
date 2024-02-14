@@ -5,7 +5,7 @@
 project "zlib"
 	kind "StaticLib"
 	language "C"
-    staticruntime "off"
+    	staticruntime "off"
 
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-obj/" .. outputdir .. "/%{prj.name}")
